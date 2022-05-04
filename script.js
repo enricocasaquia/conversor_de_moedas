@@ -1,13 +1,16 @@
 
-
+//Função definida ao botão
 function Converter() {
 
+  //Variãveis iniciais
   var valorColocado = document.getElementById("valor").value;
   var valorResposta1 = document.getElementById("valorConvertido");
   var valorResposta2 = document.getElementById("valorConvertido1");
-
+    
+    //Condicional para considerar a possibilidade de o usuãrio manter o campo vazio
     if (valorColocado == 0) {
       
+      //Reset da resposta no HTML
       valorResposta1.innerHTML = "";
       valorResposta2.innerHTML = "";
       
