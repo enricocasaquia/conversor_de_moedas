@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    
+    <div class="container">
+
+        <h1 class="page-title">Conversor de moeda</h1>
+
+        <p class="page-subtitle">Descubra valores em Dólar e Bitcoin</p> <br/>
+
+        <img src="img/conversor.png" class="page-image" alt="imagem de sinal de troca" title="Troca de Moedas"/> <br/><br/>
+
+        <label for="moeda">Insira o valor abaixo em reais</label> <br/>
+        <input type="number" id="valor" size="2"/><br>
+        <button type="submit" onclick="Converter()">Converter</button>
+        
+
+        <h2 id="valorConvertido"></h2>
+        <h2 id="valorConvertido1"></h2>
+        
+
+    </div>
+
+    <div class="footer">
+
+        <span>*Valores atualizados pela última vez na data: 04/05/2022</span>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
